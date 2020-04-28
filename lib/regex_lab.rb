@@ -23,7 +23,7 @@ end
 end
 
 def valid_phone_number?(phone)
- if phone.match(/^[0-9]\d{10}/) == nil
+ if phone.match(/^[0-9]{10}\d/) == nil
    return false
  else 
    return true
