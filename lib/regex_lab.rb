@@ -4,7 +4,6 @@ def starts_with_a_vowel?(word)
   else
   return false
   end
-  return word.scan
 end
 
 
